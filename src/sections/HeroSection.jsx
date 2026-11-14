@@ -22,7 +22,7 @@ export default function HeroSection() {
     <section
       id="home"
       aria-labelledby="hero-title"
-      className="relative isolate flex min-h-[640px] items-end overflow-hidden bg-forest-ink h-[100svh] max-h-[1000px]"
+      className="relative isolate flex min-h-[min(100svh,1000px)] items-end overflow-hidden bg-forest-ink"
     >
       {/* Background image */}
       <m.div
