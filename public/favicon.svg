@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Favicon placeholder — ganti dengan logo resmi Hans Sustainable Farming -->
+  <rect width="64" height="64" rx="14" fill="#234B35"/>
+  <path d="M32 50V26" stroke="#F7F6F0" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M32 34c0-9 6-15 15-15 0 9-6 15-15 15Z" fill="#D8C8A8"/>
+  <path d="M32 40c0-8-5-13-13-13 0 8 5 13 13 13Z" fill="#829B78"/>
+</svg>

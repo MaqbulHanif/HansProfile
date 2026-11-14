@@ -1,0 +1,599 @@
+# PROJECT: HANS SUSTAINABLE FARMING — COMPANY PROFILE WEBSITE
+
+## 1. ROLE & OBJECTIVE
+
+Act as a Senior Frontend Developer, UI/UX Designer, and Brand Designer.
+
+Your task is to design and develop a professional, modern, premium, and responsive company profile website for **Hans Sustainable Farming**.
+
+The website represents a family-owned agricultural business operating in:
+
+1. Livestock Farming
+2. Aquaculture
+3. Plantation
+4. Agriculture
+
+The primary objective is to establish a strong brand identity, build business credibility, showcase business activities, and provide contact information for potential business partners and customers.
+
+This is NOT an e-commerce website. Do not prioritize online transactions or shopping cart functionality.
+
+The result should look like a professional agricultural company website, not a generic template or ordinary farming blog.
+
+## 2. BRAND IDENTITY
+
+**Brand Name:** Hans Sustainable Farming
+
+**Industry:** Agriculture, Livestock, and Aquaculture.
+
+**Brand Positioning:**
+A modern, professional, family-owned agricultural business focused on developing livestock, aquaculture, and agricultural activities through responsible management and sustainable business practices.
+
+**Brand Tagline:**
+"Growing Today, Sustaining Tomorrow."
+
+**Brand Personality:**
+- Modern
+- Professional
+- Natural
+- Trustworthy
+- Sustainable
+- Premium but approachable
+
+**Brand Communication:**
+Use a combination of English headlines and professional Indonesian descriptions.
+
+The website should feel modern and premium while maintaining a natural agricultural identity.
+
+IMPORTANT:
+Do not invent company history, business achievements, certifications, production capacity, operational statistics, or sustainability claims. Use editable placeholder content when actual company information is unavailable.
+
+## 3. TECHNOLOGY STACK
+
+Use the following technology stack:
+
+- React.js
+- Tailwind CSS
+- JavaScript or TypeScript based on the existing project
+- Lucide React for icons
+- Framer Motion for subtle animations if compatible with the project
+- React Router only if multiple routes are required
+
+Before starting implementation:
+
+1. Inspect the existing project structure.
+2. Identify the current framework, dependencies, and configuration.
+3. Reuse existing dependencies whenever possible.
+4. Do not unnecessarily replace or upgrade existing packages.
+5. If the project is empty, initialize a clean React + Vite + Tailwind CSS project.
+6. Follow the existing project conventions.
+
+Do not create a backend or database for this initial version.
+
+## 4. DESIGN DIRECTION
+
+Use the design style:
+
+**Modern Organic Minimalism**
+
+The visual design should combine:
+- Premium corporate website aesthetics.
+- Natural agricultural imagery.
+- Clean and spacious layouts.
+- Strong typography hierarchy.
+- Elegant photography.
+- Minimal but meaningful animations.
+
+Avoid:
+- Generic Bootstrap-looking templates.
+- Excessive gradients.
+- Excessive rounded cards.
+- Too many decorative elements.
+- Cartoon-style farming illustrations.
+- Excessive animations.
+- Overly saturated colors.
+- Dense content layouts.
+
+### 4.1 Color Palette
+
+Use these brand colors consistently:
+
+| Name | Hex | Usage |
+|------|------|-------|
+| Forest Green | #234B35 | Primary brand color |
+| Sage Green | #829B78 | Secondary accent |
+| Warm Beige | #D8C8A8 | Decorative accent |
+| Soft Cream | #F7F6F0 | Main background |
+| Charcoal | #29332C | Main typography |
+| White | #FFFFFF | Content background |
+
+Primary buttons should use Forest Green with appropriate hover states.
+
+Alternate between Soft Cream and White backgrounds for section separation.
+
+### 4.2 Typography
+
+Use:
+- DM Serif Display for large headlines and editorial headings.
+- Inter for body text, buttons, and navigation.
+
+Typography should be elegant, readable, and responsive.
+
+### 4.3 Visual Assets
+
+Use high-quality agricultural photography.
+
+Preferred image subjects:
+- Indonesian tropical agricultural landscapes.
+- Chicken and duck farming.
+- Freshwater fish farming.
+- Tropical fruit plantations.
+- Vegetable farming.
+- Farmers working in agricultural environments.
+- Harvesting activities.
+
+Use consistent photography styles with natural lighting and realistic environments.
+
+Do not use unrelated corporate stock photography.
+
+Create reusable image components and centralized image configuration so assets can easily be replaced with real company photographs.
+
+If external image URLs are used, provide appropriate fallback images or placeholders.
+
+## 5. WEBSITE STRUCTURE
+
+Build a single-page responsive landing page with the following sections.
+
+### SECTION 1: NAVIGATION BAR
+
+Create a sticky navigation bar.
+
+Brand:
+HANS
+SUSTAINABLE FARMING
+
+Navigation items:
+- Home
+- About Us
+- Our Business
+- Our Products
+- Our Approach
+- Gallery
+- Contact
+
+Requirements:
+- Logo on the left.
+- Navigation links on the right.
+- Contact Us button.
+- Smooth scrolling to sections.
+- Mobile hamburger navigation.
+- Transparent navigation over the hero image, transitioning to a solid background when scrolling if appropriate.
+- Proper responsive behavior.
+
+### SECTION 2: HERO SECTION
+
+This is the most important visual section.
+
+Headline:
+
+"Growing Today, Sustaining Tomorrow."
+
+Description:
+
+"Hans Sustainable Farming is a family-owned agricultural business dedicated to developing livestock, aquaculture, and agricultural activities through responsible and sustainable farming practices."
+
+Indonesian alternative:
+
+"Hans Sustainable Farming merupakan bisnis keluarga yang bergerak di bidang peternakan, perikanan, dan pertanian dengan komitmen mengembangkan potensi alam secara produktif dan berkelanjutan."
+
+Buttons:
+- Discover Our Business
+- Contact Us
+
+Design requirements:
+- Full-width landscape background image.
+- Image overlay for text readability.
+- Large editorial headline.
+- Text aligned to the left.
+- Premium visual composition.
+- Responsive hero height.
+- Subtle entrance animation.
+
+### SECTION 3: ABOUT US
+
+Section eyebrow:
+WHO WE ARE
+
+Headline:
+"Growing with Nature, Building for the Future."
+
+Description:
+
+"Hans Sustainable Farming merupakan usaha keluarga yang bergerak dalam pengembangan sektor peternakan, perikanan, dan pertanian.
+
+Berangkat dari semangat untuk mengembangkan potensi alam dan sumber daya yang dimiliki, kami berkomitmen membangun usaha agrikultur yang produktif, bertanggung jawab, dan berorientasi pada keberlanjutan.
+
+Melalui pengelolaan yang terus dikembangkan, kami ingin menghadirkan nilai positif bagi lingkungan, masyarakat, dan generasi mendatang."
+
+Display three core values:
+
+1. Sustainability
+   Pengembangan usaha dengan memperhatikan keberlanjutan.
+
+2. Quality
+   Mengutamakan kualitas dalam pengelolaan dan hasil produksi.
+
+3. Growth
+   Mengembangkan potensi usaha secara berkelanjutan.
+
+Design:
+- Editorial two-column layout.
+- Large agricultural image.
+- Text and values arranged cleanly.
+- Use icons from Lucide React.
+
+### SECTION 4: OUR BUSINESS
+
+Section eyebrow:
+WHAT WE DO
+
+Headline:
+"Our Business."
+
+Description:
+"Exploring the potential of agriculture, livestock, and aquaculture."
+
+Create four business category cards.
+
+CARD 1: LIVESTOCK FARMING
+
+Description:
+"Pengembangan peternakan unggas dan hewan ternak lainnya, dengan fokus pada pemeliharaan dan pengelolaan yang terencana."
+
+Categories:
+- Chickens
+- Ducks
+- Other Livestock
+
+CARD 2: AQUACULTURE
+
+Description:
+"Kegiatan budidaya ikan dengan memperhatikan pengelolaan lingkungan dan kualitas pemeliharaan."
+
+Categories:
+- Freshwater Fish Farming
+- Aquaculture
+
+CARD 3: PLANTATION
+
+Description:
+"Pengembangan perkebunan dan pemanfaatan lahan untuk menghasilkan komoditas pertanian."
+
+Categories:
+- Fruit Plantation
+- Tropical Crops
+
+CARD 4: AGRICULTURE
+
+Description:
+"Budidaya sayuran dan berbagai tanaman pangan untuk mendukung produktivitas pertanian."
+
+Categories:
+- Vegetables
+- Food Crops
+- Horticulture
+
+Design requirements:
+- Four visually attractive cards.
+- Large image for each category.
+- Image hover zoom effect.
+- Minimal text.
+- Consistent image aspect ratio.
+- Responsive grid.
+- Cards should feel premium and editorial, not like generic dashboard cards.
+
+### SECTION 5: OUR PRODUCTS
+
+Section eyebrow:
+OUR HARVEST
+
+Headline:
+"Nature's Potential, Our Harvest."
+
+Description:
+"Discover the agricultural and livestock products developed through our farming activities."
+
+Create product categories:
+- Poultry Products
+- Duck Products
+- Freshwater Fish
+- Plantation Products
+- Fresh Vegetables
+
+Each product item should support:
+- Product image.
+- Product name.
+- Short description.
+- Category.
+- Availability status (optional).
+- Contact / Inquiry button.
+
+IMPORTANT:
+Actual product names, descriptions, and prices are not yet available.
+
+Use clearly marked editable placeholder data.
+
+Do not invent real product prices, quantities, or availability.
+
+Do not implement shopping cart or checkout.
+
+### SECTION 6: OUR FARMING APPROACH
+
+Section eyebrow:
+OUR COMMITMENT
+
+Headline:
+"Responsible Farming, Better Future."
+
+Description:
+"We believe that sustainable business growth starts with responsible management, quality practices, and continuous improvement."
+
+Display four principles:
+
+1. Responsible Management
+   Pengelolaan peternakan dan pertanian secara terencana.
+
+2. Quality Focus
+   Memperhatikan kualitas proses pemeliharaan dan hasil produksi.
+
+3. Resource Efficiency
+   Mengoptimalkan pemanfaatan lahan, air, dan sumber daya.
+
+4. Continuous Improvement
+   Terus mengembangkan metode dan pengelolaan usaha.
+
+Design:
+- Clean editorial layout.
+- Supporting agricultural photography.
+- Four principles presented with elegant icons or numbered elements.
+- Subtle scroll animations.
+
+Do not claim certifications or specific environmental achievements.
+
+### SECTION 7: FARM GALLERY
+
+Section eyebrow:
+OUR ACTIVITIES
+
+Headline:
+"A Glimpse of Our Journey."
+
+Description:
+"Discover the activities, environments, and daily operations behind Hans Sustainable Farming."
+
+Create an attractive image gallery featuring:
+- Chicken farming.
+- Duck farming.
+- Fish farming.
+- Plantation activities.
+- Vegetable farming.
+- Harvesting activities.
+
+Requirements:
+- Responsive grid or masonry layout.
+- Image hover effects.
+- Click-to-view lightbox.
+- Consistent image treatment.
+- Optimized loading using lazy loading.
+
+Prepare the gallery so actual company photographs can replace placeholder images easily.
+
+### SECTION 8: CONTACT & PARTNERSHIP
+
+Headline:
+"Let's Build a Sustainable Future Together."
+
+Description:
+
+"Kami terbuka untuk menjalin hubungan dan peluang kerja sama dengan berbagai pihak yang memiliki visi untuk mengembangkan sektor pertanian dan peternakan.
+
+Mari terhubung dengan Hans Sustainable Farming."
+
+Contact information:
+- WhatsApp.
+- Business Email.
+- Business Location.
+- Google Maps.
+- Instagram / Social Media.
+
+Use editable placeholder configuration for all contact information.
+
+Add a simple partnership inquiry form containing:
+- Full Name.
+- Company Name (optional).
+- Email.
+- Phone Number.
+- Subject.
+- Message.
+
+For this initial version:
+- No backend integration.
+- Provide frontend validation.
+- Do not pretend that form submissions have been stored or sent.
+- Provide WhatsApp contact as the primary working contact action.
+
+### SECTION 9: FOOTER
+
+Include:
+- Hans Sustainable Farming logo.
+- Short company description.
+- Navigation links.
+- Business categories.
+- Contact information.
+- Social media links.
+- Copyright year dynamically generated.
+
+Footer text:
+
+"Hans Sustainable Farming — Growing Today, Sustaining Tomorrow."
+
+## 6. USER EXPERIENCE REQUIREMENTS
+
+The website must:
+
+1. Be fully responsive on desktop, tablet, and mobile.
+2. Have smooth scrolling navigation.
+3. Use subtle and professional animations.
+4. Have consistent spacing and typography.
+5. Provide clear CTA buttons.
+6. Have optimized image loading.
+7. Use semantic HTML.
+8. Include accessible button labels and image alt attributes.
+9. Have appropriate hover and focus states.
+10. Avoid layout shifts and horizontal overflow.
+11. Provide a polished mobile navigation experience.
+12. Respect reduced-motion preferences.
+
+## 7. SEO REQUIREMENTS
+
+Implement basic SEO:
+
+- Page title: Hans Sustainable Farming | Growing Today, Sustaining Tomorrow
+- Meta description.
+- Open Graph metadata.
+- Favicon placeholder.
+- Semantic heading hierarchy.
+- Descriptive image alt text.
+- Local business/company structured data only when actual business information is available.
+
+## 8. CODE ARCHITECTURE
+
+Use clean, maintainable, reusable components.
+
+Suggested structure:
+
+src/
+├── assets/
+│   ├── images/
+│   └── icons/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Footer.jsx
+│   ├── SectionHeading.jsx
+│   ├── PrimaryButton.jsx
+│   ├── BusinessCard.jsx
+│   ├── ProductCard.jsx
+│   ├── GalleryGrid.jsx
+│   └── ContactForm.jsx
+├── sections/
+│   ├── HeroSection.jsx
+│   ├── AboutSection.jsx
+│   ├── BusinessSection.jsx
+│   ├── ProductsSection.jsx
+│   ├── ApproachSection.jsx
+│   ├── GallerySection.jsx
+│   └── ContactSection.jsx
+├── data/
+│   ├── businessData.js
+│   ├── productData.js
+│   ├── galleryData.js
+│   └── siteConfig.js
+├── hooks/
+├── utils/
+├── App.jsx
+└── main.jsx
+
+Adapt the structure if the existing project already has an established architecture.
+
+Important:
+- Separate content data from UI components.
+- Avoid duplicated markup.
+- Use reusable components.
+- Use descriptive variable and component names.
+- Keep components reasonably small.
+- Avoid unnecessary dependencies.
+- Do not put all page content in one giant component.
+
+## 9. PERFORMANCE & QUALITY
+
+Pay attention to:
+- Image optimization.
+- Lazy loading.
+- Responsive image dimensions.
+- Bundle size.
+- Lighthouse performance.
+- Accessibility.
+- SEO.
+- Browser compatibility.
+
+Do not use excessive animation libraries or unnecessary packages.
+
+## 10. DEVELOPMENT WORKFLOW
+
+Work in the following sequence:
+
+PHASE 1 — PROJECT ANALYSIS
+- Inspect the existing repository.
+- Identify installed dependencies.
+- Understand existing project structure.
+- Report the implementation plan briefly.
+
+PHASE 2 — DESIGN IMPLEMENTATION
+- Establish design tokens.
+- Build navigation.
+- Build hero.
+- Build all landing page sections.
+- Build footer.
+- Implement responsive behavior.
+
+PHASE 3 — INTERACTION
+- Smooth scrolling.
+- Mobile navigation.
+- Gallery lightbox.
+- Contact form validation.
+- WhatsApp integration.
+- Subtle animations.
+
+PHASE 4 — QUALITY CHECK
+- Run the development build.
+- Fix all compilation errors.
+- Check responsive layouts.
+- Check console errors.
+- Check broken images and links.
+- Verify all CTA buttons.
+- Verify accessibility basics.
+
+PHASE 5 — DOCUMENTATION
+Create README.md containing:
+- Project overview.
+- Technology stack.
+- Installation instructions.
+- Development commands.
+- Build commands.
+- Project structure.
+- Instructions for replacing images.
+- Instructions for editing company information and contact details.
+
+## 11. FINAL EXPECTATIONS
+
+The final website must look like a premium, professionally designed agricultural company website.
+
+Prioritize:
+1. Visual quality.
+2. Brand consistency.
+3. User experience.
+4. Responsiveness.
+5. Clean code.
+6. Maintainability.
+
+Do not stop after creating a basic wireframe.
+
+Implement the complete working frontend, inspect the result, and refine the visual quality before finishing.
+
+At the end, provide:
+- Summary of implemented features.
+- Files and components created.
+- Dependencies added.
+- Commands to run the project.
+- Remaining placeholders requiring actual company information or photographs.
+
+**Start by inspecting the existing project before modifying any files.**
